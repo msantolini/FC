@@ -2,17 +2,20 @@
 require(igraph)
 require(WGCNA) # for fast cor function
 
-ll <- load('data_init.RData')
+ll <- load('data.RData')
 X <- datExpr_FC
 
+#############################################
+## Computing the full co-expression matrix ##
+#############################################
 n <- ncol(X) 
 C <- abs(cor(X))
 C1 <- C
     
 
-######################################
-## Community detection using igraph ##
-######################################
+################################################
+## Connected components measured using igraph ##
+################################################
 
 fout <- 'res_clusters_init.RData'
 if (!file.exists(fout)){
