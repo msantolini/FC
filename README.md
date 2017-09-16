@@ -2,7 +2,7 @@
 
 These codes are used in the paper:
 
-M. Santolini, C. Rau, S. Ren, J. Saucerman, J. Wang, J. Weiss, Y. Wang, A. Lusis, A. Karma. A personalized, multi-omics approach identifies genes involved in cardiac hyper- trophy and heart failure. bioRxiv 120329; doi:https://doi.org/10.1101/120329, 2017.
+M. Santolini, C. Rau, S. Ren, J. Saucerman, J. Wang, J. Weiss, Y. Wang, A. Lusis, A. Karma. A personalized, multi-omics approach identifies genes involved in cardiac hypertrophy and heart failure. bioRxiv 120329; doi:https://doi.org/10.1101/120329, 2017.
 
 ## Genes pre-filtering
 The first script, 1_compInitialFiltering.R, reproduces the filtering from Figure S1.
